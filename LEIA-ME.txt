@@ -1,0 +1,14 @@
+COMO COLOCAR NO AR (necessário HTTPS para instalar como app)
+
+Opção mais fácil - Netlify Drop:
+1. Acesse https://app.netlify.com/drop
+2. Arraste esta pasta inteira (com todos os arquivos) para a página.
+3. Você recebe um link https://xxxx.netlify.app
+
+Depois, no Supabase:
+- Authentication > URL Configuration > Site URL: cole o link do seu site.
+- Em Redirect URLs, adicione o mesmo link (para o "esqueci minha senha" funcionar).
+
+COMO INSTALAR
+- Android (Chrome): abra o link, toque em "Instalar" (ou menu ⋮ > Instalar aplicativo).
+- iPhone (Safari): abra o link, toque em Compartilhar > "Adicionar à Tela de Início".
